@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+    margin:0 auto;
+    text-align: center;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    font-size: 32px;
+    height:100vh;
+}
+#outputArea{
+    width:80%;
+    border:2px solid black;
+    border-radius:3px;
+    height: 28px;
+}
+#calcInterface{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+}
+#regularButtons{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#bigButtons{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+div.num-btn ,div.op-btn{
+    border:2px solid black;
+   row-gap: 12px;
+}
